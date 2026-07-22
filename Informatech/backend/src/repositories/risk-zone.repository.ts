@@ -1,0 +1,12 @@
+import { AppDataSource } from '../data-source'
+import { RiskZone } from '../entities/RiskZone'
+
+/** Encapsula todas as operações TypeORM relacionadas às zonas de risco. */
+export class RiskZoneRepository {
+  private repository = AppDataSource.getRepository(RiskZone)
+  create(data: Partial<RiskZone>) { return this.repository.create(data) }
+  save(zone: RiskZone) { return this.repository.save(zone) }
+  findAll() { return this.repository.find({ order: { createdAt: 'DESC' } }) }
+  findById(id: string) { return this.repository.findOne({ where: { id } }) }
+  remove(zone: RiskZone) { return this.repository.remove(zone) }
+}
