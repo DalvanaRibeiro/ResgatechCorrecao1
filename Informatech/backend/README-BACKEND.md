@@ -1,6 +1,6 @@
 # InformaTech API — versão intermediária sem migrations
 
-Backend didático e profissional desenvolvido com Node.js, Express, TypeScript,
+Backend  desenvolvido com Node.js, Express, TypeScript,
 TypeORM, MySQL, JWT, bcrypt, Zod e Swagger/OpenAPI.
 
 ## Arquitetura
