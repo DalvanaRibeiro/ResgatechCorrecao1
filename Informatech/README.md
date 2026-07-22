@@ -2,7 +2,7 @@
 
 Projeto com aplicativo React Native/Expo e API Node.js.
 
-## Backend intermediário e didático
+## Backend 
 
 Tecnologias principais: TypeScript, Express, TypeORM, MySQL, JWT, bcrypt, Zod e
 Swagger. A arquitetura possui controllers, services e repositories reais.
